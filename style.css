@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@ body{
     color: #ffffff;
     font-size: 22px;
     transition: 0.3s;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     float: right;
     padding-left:30px;
@@ -345,7 +346,7 @@ body{
     font-size: 14px;
     text-align: center;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     backface-visibility: hidden;
     border: 0.3rem solid transparent;
     border-radius: 2rem;
@@ -370,7 +371,7 @@ background-color: #7A003B;
 min-width: 160px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1;
-font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
 border-radius: 1.5rem;
 font-size: 10px;
 }
@@ -380,7 +381,7 @@ color: rgb(255, 255, 255);
 padding: 12px 16px;
 text-decoration: none;
 display: block;
-font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
 border-radius: 2rem;
 }
 
@@ -402,7 +403,7 @@ border-radius: 2rem;
     -webkit-backdrop-filter: blur( 10.5px );
     border-radius: 30px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #7A003B;
 }
 
@@ -419,7 +420,7 @@ border-radius: 2rem;
     backdrop-filter: blur( 10.5px );
     -webkit-backdrop-filter: blur( 10.5px );
     border-radius: 10px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 60%;
     color: #fff;
     margin-bottom: 2%;
