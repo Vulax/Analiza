@@ -50,7 +50,7 @@ function promeni(value) {
 
         nekretnine[0].innerHTML = "<h2>Nekretnine</h2><p>Kupovina poslovnog prostora : <b>1651,11 €/m2</b><br>Iznajmljivanje poslovnog prostora : <b>11,20€/m2 </b> <br>Kupovina magacina : <b>550,00€/m2</b><br>Iznajmljivanje magacina : <b>3,82€/m2</b></p>";
 
-        tm[0].innerHTML = "<h2>Transportne mogućnosti</h2><p>Drumski &#10004; <br>	Železnički &#10004;<br>	Rečni &#9932;;<br>	Pomorski &#10004;  	<br>	Avio &#10004;<br></p>";  
+        tm[0].innerHTML = "<h2>Transportne mogućnosti</h2><p>Drumski &#10004; <br>	Železnički &#10004;<br>	Rečni &#9932;<br>	Pomorski &#10004;  	<br>	Avio &#10004;<br></p>";  
         
     }else if (value == "makedonija") {
         zakon[0].innerHTML = "<h2>Zakon</h2><p>U Severnoj Makedoniji dozvoljeno je gajenje konoplje samo za medicinske svrhe, dok se pitanje uzgoja konoplje u svrhe industrije jos promatrazbog prethodno praćenih skandala zloupotrebe uzgoja.</p>";
