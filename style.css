@@ -131,7 +131,7 @@ line-height:30px;
 .social-icons{
 width:70px;
 display:flex;
-justify-content:space-between;
+justify-content:center;
 }
 .team-image-wrapper{
 clip-path:circle(50% at 50% 50%);
@@ -446,4 +446,8 @@ border-radius: 2rem;
 
 select{
     text-align-last:center; 
+}
+
+.ikonica{
+    width:30px;
 }
