@@ -236,6 +236,9 @@ body {
     .wk-ipadp-12{
     width: 100%;
     }
+    #zastava{
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -275,6 +278,9 @@ body {
     .wk-tab-12{
     width: 100%;
     }
+    #zastava{
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
@@ -313,6 +319,9 @@ body {
     }
     .wk-mobile-12{
     width: 100%;
+    }
+    #zastava{
+        display: none;
     }
 }
 
