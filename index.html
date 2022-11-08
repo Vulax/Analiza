@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body onLoad="document.getElementById('zemlje').options[0].selected = 'selected';"></body>
+<body onLoad="document.getElementById('zemlje').options[0].selected = 'selected'; document.getElementById('kriterijumi').options[0].selected = 'selected';"></body>
 <div class="navBar">
     <img src="smartacc.png" alt="unijaLogo" style="height: 50px; padding-left: 50px; margin-top:27px;">
 
@@ -45,6 +45,60 @@
     </select>
 </div>
 
+<div class="sticky">
+    <center><img src="ana.png" style="width: 80px; height: 80px; text-decoration: none; filter: invert(1);"
+            class="ikona"></center>
+
+    <div class="kalkulator">
+        <p style="font-weight:bolder; text-align: center;">Kalkulator najpovoljnije države po izabranom kriterijumu</p>
+        <div class="dropdown">
+            <select name="Kriterijum" id="kriterijumi" class="dropbt" onchange="kalkulator(this.value);">
+                <div class="dropdown-content">
+                    <option value="dugo" class="opcija"> Dugoročni razvoj </option>
+                    <option value="kratko">Kratkoročni razvoj</option>
+                </div>
+            </select>
+        </div>
+
+        <div class="zastavica">
+            <center><img src="Serbia.png" id="zastavica"></center>
+        </div>
+
+        </br>
+        <div class="kriterijum">
+            
+                <p>Srbija kao največa zemlja u regionu, sa najviše obradivog zemljista, čini raskrsnicu izmedju </br>
+                    zemalja u regionu sto je čini pogodnom za ulaganje. </br> Cene radne snage su medju nižima u
+                    regionu.</p>
+            
+        </div>
+
+        <center>
+            <div class="izlaz"><i class="fa fa-close" style="color:white; font-size:13px; margin-top: 20px;"></i></div>
+        </center>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(window).on("load", function () {
+            $(".kalkulator").hide();
+
+
+
+            $(".ikona").click(function () {
+                $(".kalkulator").show();
+                $(".ikona").hide();
+            });
+
+            $(".izlaz").click(function () {
+                $(".kalkulator").hide();
+                $(".ikona").show();
+            });
+
+        });
+    </script>
+    
+</div>
 
 <div class="dev">
     <div class="zakon">

@@ -101,3 +101,18 @@ function promeni(value) {
     
 
 }
+
+function kalkulator(value) {
+    const kriterijum = document.getElementsByClassName("kriterijum");
+
+
+    if (value == "kratko") {
+        document.getElementById("zastavica").src = "Croatia.png";
+        kriterijum[0].innerHTML = " <p>Glavna razlika između Srbije i Hrvatske, je cena poljoprivrednog zemljišta koja je znatno manja. </br>Ako firma želi da se investicija što pre isplati, Hrvatska je u tom slučaju favorit.  </p>";
+
+    } else if (value == "dugo") {
+        kriterijum[0].innerHTML = " <p>Srbija kao največa zemlja u regionu, sa najviše obradivog zemljista, čini raskrsnicu izmedju </br> zemalja u regionu sto je čini pogodnom za ulaganje. </br> Cene radne snage su medju nižima u regionu.</p>";
+        document.getElementById("zastavica").src = "Serbia.png";
+    }
+}
+
